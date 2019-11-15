@@ -5,6 +5,8 @@ var PassThrough = require('stream').PassThrough
 var util   = require('util')
 
 var fs = require('fs-extra')
+var P = require('autoresolve')
+var S = require('underscore.string')
 
 var SupposeStream = require('../lib/suppose-stream')
 
